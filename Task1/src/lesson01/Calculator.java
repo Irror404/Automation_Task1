@@ -16,7 +16,7 @@ public class Calculator {
         Numbers numbers = new Numbers(firstNumber, secondNumber);
         String error = numbers.errorCheck(operation);
         if (error.isEmpty()) {
-            System.out.println("Result" + numbers.getResult(operation));
+            System.out.println("Result: " + numbers.getResult(operation));
         } else {
             System.out.println(error);
         }
